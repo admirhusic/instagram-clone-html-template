@@ -44,3 +44,7 @@ body a {
 .profile img {
     width: 100%;
 }
+
+.navbar-mobile li {
+    margin: 0 1em 0 1em;
+}

@@ -16,7 +16,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-xl-flex">
         <a class="navbar-brand" href="#"> <img src="/images/logo-small.png" alt=""> </a>
         <form class="form-inline my-2 my-lg-0 ">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -54,6 +54,30 @@
         </div>
     </nav>
     <!-- Navbar end -->
+
+    <!-- Navbar navbar mobile -->
+    <nav class="navbar navbar-expand navbar-light bg-light fixed-bottom d-lg-none">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav m-auto navbar-mobile">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-home fa-2x"></i><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-camera fa-2x"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-heart fa-2x"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user fa-2x"></i></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- Navbar mobile end -->
 
     <!-- Content -->
     <div class="container mt-5">
