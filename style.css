@@ -1,0 +1,46 @@
+body {
+    background-color: #FAFAFA;
+
+}
+
+body a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.navbar {
+    background-color: #fff !important;
+   
+}
+
+.avatar {
+    max-width: 25px;
+    border: 1px solid;
+}
+
+.card-header a {
+   
+}
+
+.card-body img {
+    width: 100% !important;
+    
+}
+
+.card-footer a {
+    color: #000;
+}
+
+.explore img {
+    width: 100%;
+}
+
+.profile .rounded-circle {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+
+.profile img {
+    width: 100%;
+}
