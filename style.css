@@ -48,3 +48,29 @@ body a {
 .navbar-mobile li {
     margin: 0 1em 0 1em;
 }
+
+
+.media-avatar {
+    max-width: 40px;
+}
+
+
+
+
+.media .fa-heart {
+    color: #d4d4d4;
+    cursor: pointer;
+}
+
+
+.media .fa-heart:hover {
+    color: #000;
+}
+
+.media .fa-heart.active {
+    color: red;
+}
+
+.media-card {
+    overflow-y: scroll;
+}
